@@ -15,7 +15,6 @@ body {
     width: 500px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 0 auto;
     position: relative;
 }
 
@@ -76,15 +75,21 @@ body {
     background: #ecf0f1;
     color: #2c3e50;
     font-size: 2rem;
-    position: absolute;
-    top: calc(50% - 50px);
-    left: calc(50% - 150px);
+    justify-self: center;
+    /*top: calc(50% - 50px);
+    left: calc(50% - 150px);*/
 }
 .hide {
     display: none;
 }
 @media(max-width: 425px){
-    .description{
-        font-size: 3em;
+    .gameboard{
+        width: 350px;
+        height: 350px;
+    }
+    .btn-start{
+        font-size: 1.5rem;
+        width: 200px;
+        height: 60px;
     }
 }
